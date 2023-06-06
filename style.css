@@ -1,0 +1,49 @@
+.myPic { 
+    width: 100px;
+  }
+.headerContainer {
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px black;
+}
+.nameElement {
+    font-family:Garamond;
+    font-size: 50px;
+    justify-content: center;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.headPara {
+    font-family: Garamond;
+    font-size: 50px;
+    padding-top:50px;
+    text-align: center;
+    
+}
+@media screen and (min-width: 400px) {
+    .menu {
+        font-family: Garamond;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 100px;
+    }    } 
+    
+    @media screen and (min-width: 800px) {
+    .menu {
+        font-family: Garamond;
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 100px;
+    }    }
+
+  
